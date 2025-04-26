@@ -28,7 +28,7 @@ Download SpaMWGDA by
           --lr: float; the learning rate
           --weight_decay: float; the weight decay
           --nhid1: int; the dimension of the first hidden layer
-          __nhid2: int; the dimension of the second hidden layer
+          --nhid2: int; the dimension of the second hidden layer
           --dropout: float; the dropout rate
           --epochs: int; the training epochs
           --alpha: float; the factor of zinb_loss
@@ -44,7 +44,7 @@ For Human Breast Cancer dataset and mouse olfactory daatset, you can follow the 
     
     
     python HBC.test.py 
-    python Stereo_seq.py
+    python Stereo_seq_test.py
 
 # Datasets
 <div>The human dorsolateral prefrontal cortex(DLPFC) dataset is available for download at http://research.libd.org/spatialLIBD/</div>
