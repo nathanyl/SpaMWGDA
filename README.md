@@ -8,6 +8,9 @@ SpaMWGDA
   <li>scanpy=1.10.4</li>
   <li>numpy=1.25.0</li>
   <li>pandas=2.0.3</li>
+  <li>torch_geometric=2.5.3</li>
+  <li>torch_scatter==2.1.2</li>
+  <li>torch_sparse=0.6.13</li>
 </ul>
 
 # Installation
@@ -20,7 +23,7 @@ Download SpaMWGDA by
 
 ## 1 Configuration
     python config.py
-        Parameter:
+        Arguments:
           --fidm: int; the number of highly variable genes
           --k: int; the k of knn metrics
           --radius: int; the radius of radius metrics
