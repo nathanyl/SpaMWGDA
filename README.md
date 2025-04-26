@@ -37,7 +37,7 @@ Download SpaMWGDA by
           --no_cuda: boolean; whether to use cuda
           --no_seed: boolean; whether to use random parameter
 ## 2 Data Processing
-    python DLPFC_generate.py
+    python DLPFC_generate_data.py
 ## 3 Run
     python DLPFC_test.py
 For Human Breast Cancer dataset and mouse olfactory daatset, you can follow the command to run
