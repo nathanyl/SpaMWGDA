@@ -1,5 +1,5 @@
 # SpaMWGDA
-SpaMWGDA11
+SpaMWGDA
 # Requirements
 <ul>
   <li>python=3.10.14</li>
